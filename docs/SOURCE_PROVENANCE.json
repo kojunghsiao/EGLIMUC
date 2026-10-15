@@ -1,0 +1,86 @@
+[
+  {
+    "release": "notebooks/00_legacy_manuscript_reproducibility_audit.ipynb",
+    "source_sha256": "aea96a8cab127fd4f797433dcb3de810227742ccb46c503d36507bcd5e3bda3d",
+    "release_sha256": "821b1dd5255596d2711cc0d45f09a58b976fc7bda7d3366ca81c6b5a27de2fa4",
+    "configuration_edits": 5
+  },
+  {
+    "release": "notebooks/01_vit_loss_screening_development_only.ipynb",
+    "source_sha256": "341a287ab35d4040f647df2517b85ee7db6c1673a7aac698a28eaec71a928a7c",
+    "release_sha256": "53bcf58833b11548cfd9e5959f711ea1074b9fb8059c364dc25b0a5dc45f95a0",
+    "configuration_edits": 3
+  },
+  {
+    "release": "notebooks/02_vit_loss_multiseed_confirmation.ipynb",
+    "source_sha256": "7bb725cce05ae556f000f3528643acb6960d476dbf4916862df2e49455772e19",
+    "release_sha256": "43d414b38694518852304e010921a30488016993abde16d6c86c35d7ca1eb7df",
+    "configuration_edits": 4
+  },
+  {
+    "release": "notebooks/03_patient_aggregation_and_reference_sensitivity.ipynb",
+    "source_sha256": "732d74ad2784535c92379253d4890aa05334948ee169f9d56618fd47dd506f54",
+    "release_sha256": "836c1bbc2cf8fef97146ba5307d87d75248a96884ed4a63aadd494c91ad8280f",
+    "configuration_edits": 5
+  },
+  {
+    "release": "notebooks/04_swin_loss_screening_development_only.ipynb",
+    "source_sha256": "dcadbe2747438f209d6323396a529ad2d088f43b0ade9e8011f4fac837f62b1c",
+    "release_sha256": "956e174bc5c182bd75b01a26b3761b4b3ab3d03e56cb2dd7151c41507873289b",
+    "configuration_edits": 6
+  },
+  {
+    "release": "notebooks/05_swin_loss_multiseed_confirmation.ipynb",
+    "source_sha256": "4821894a0701a16f7ff237061394da6cd6747539120ccf5f6aad2be8352b0ae6",
+    "release_sha256": "9e3ee54dea8c716a1af35b0a296cf11226a33cfea33651f83cddceb579fd5131",
+    "configuration_edits": 6
+  },
+  {
+    "release": "notebooks/06_backbone_benchmark_development_only.ipynb",
+    "source_sha256": "69975982d4635b75f70c98c141e64689d8643c682f2e7d73a6be0213150300ce",
+    "release_sha256": "581ad2931295b895d4b2428dd474446f6fd2aebdac078488f3e2c518ca696dda",
+    "configuration_edits": 8
+  },
+  {
+    "release": "notebooks/07_locked_swin_ablation_development_only.ipynb",
+    "source_sha256": "56c5329c29c73cb126cb2eb85ab811fddaed35284d5edfcfc9a8d565617adec9",
+    "release_sha256": "8d3ad742ff41a099e9b3ffc01685880cc9381ad524a134fbc897b2a6ea929942",
+    "configuration_edits": 7
+  },
+  {
+    "release": "notebooks/08_final_model_lock_before_test.ipynb",
+    "source_sha256": "9861d44d50fd3762a987c8951cda04012a70832a7041a5a5145322006c2cedb7",
+    "release_sha256": "a75c01e5f84ca692d17d439fac606544388237803e5967c6fc91693966f1dee4",
+    "configuration_edits": 2
+  },
+  {
+    "release": "notebooks/09_locked_official_test_evaluation.ipynb",
+    "source_sha256": "db14813df4b3129a3dd8cad3894a62d1116cf9b38122680e107eb32777399d90",
+    "release_sha256": "4e9b3a203a257314d820fbf870fdd64c2930c4c3a7499c886ae7df2eb8b2e65b",
+    "configuration_edits": 3
+  },
+  {
+    "release": "notebooks/10_route_A_manuscript_figures.ipynb",
+    "source_sha256": "21dd9f7be5c2bdcba4eef986d5a3e8461bfe3856e4420c03905e9c5c62f1c855",
+    "release_sha256": "225d78c6868b6f6c88d20a4ea1087ddb6667a38690bf6f519fe0e556a6690a9d",
+    "configuration_edits": 3
+  },
+  {
+    "release": "notebooks/11_aggregation_reference_crossed_sensitivity_v2.ipynb",
+    "source_sha256": "484cf068f81aca65bd260cab9d5e7e331dab3c04d63c2dfa2ed6a0a2726186b8",
+    "release_sha256": "302a0f5c68090405aceecdd0d61a473ca8637f2c0e96034d3018cae18302ac17",
+    "configuration_edits": 3
+  },
+  {
+    "release": "notebooks/12_development_oof_probability_calibration_audit.ipynb",
+    "source_sha256": "d7a1b1eee1721333e92eb0469150bc536cebd3eb7f410b10bceb90414caeb9c4",
+    "release_sha256": "85650afda872e20fd7cf56ba92cdac610c6b8f65c7d7cd14813eab26ed091121",
+    "configuration_edits": 4
+  },
+  {
+    "release": "notebooks/13_nested_patient_grouped_evaluation_v2_corrected.ipynb",
+    "source_sha256": "9c3207c0a4de73fd784597169bc933249e70dbf4c0d1fe565b4254334fee1421",
+    "release_sha256": "d370fa60d4abf0503f5dd69cc2344305fe840abeed82924534e74484a00a46b5",
+    "configuration_edits": 3
+  }
+]

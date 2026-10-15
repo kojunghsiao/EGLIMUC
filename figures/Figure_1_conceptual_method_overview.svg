@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="7.2in" height="5.1in" viewBox="0 0 1600 1133"><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,5 L0,10 Z" fill="#35495b"/></marker></defs><rect width="1600" height="1133" fill="white"/>
+<text x="35" y="44" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="bold" fill="#152b3b" text-anchor="start">Reliable evaluation of image-to-patient MES classification</text>
+<text x="35" y="88" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="normal" fill="#4a5c69" text-anchor="start">How do prediction aggregation and the derived reference affect patient-level conclusions?</text>
+<text x="35" y="151" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="bold" fill="#195c88" text-anchor="start">A   IMAGE PREDICTION → PATIENT SUMMARY</text>
+<rect x="35" y="175" width="285" height="262" rx="14" fill="#f1f6fa" stroke="#a5b9c8" stroke-width="2"/>
+<text x="57" y="219" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" fill="#152b3b" text-anchor="start">LIMUC images</text>
+<rect x="67" y="241" width="78" height="57" rx="4" fill="#ffffff" stroke="#65879f" stroke-width="2"/>
+<path d="M77,284 L96,265 L109,277 L123,256 L136,284" fill="none" stroke="#7c9bb0" stroke-width="3"/>
+<rect x="80" y="251" width="78" height="57" rx="4" fill="#ffffff" stroke="#65879f" stroke-width="2"/>
+<path d="M90,294 L109,275 L122,287 L136,266 L149,294" fill="none" stroke="#7c9bb0" stroke-width="3"/>
+<rect x="93" y="261" width="78" height="57" rx="4" fill="#ffffff" stroke="#65879f" stroke-width="2"/>
+<path d="M103,304 L122,285 L135,297 L149,276 L162,304" fill="none" stroke="#7c9bb0" stroke-width="3"/>
+<text x="57" y="362" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="normal" fill="#152b3b" text-anchor="start">Group all images</text>
+<text x="57" y="398" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="normal" fill="#152b3b" text-anchor="start">by patient identifier</text>
+<path d="M322,300 L366,300" fill="none" stroke="#35495b" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="375" y="175" width="345" height="262" rx="14" fill="#f1f6fa" stroke="#a5b9c8" stroke-width="2"/>
+<text x="397" y="219" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" fill="#152b3b" text-anchor="start">Image classifiers</text>
+<text x="397" y="266" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="normal" fill="#152b3b" text-anchor="start">ViT-B/16 or Swin-B</text>
+<text x="397" y="307" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="normal" fill="#152b3b" text-anchor="start">Class-weighted CE</text>
+<text x="397" y="342" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="normal" fill="#152b3b" text-anchor="start">+ optional ordinal term</text>
+<text x="397" y="401" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="normal" fill="#4a5c69" text-anchor="start">Image-label supervision</text>
+<path d="M722,300 L766,300" fill="none" stroke="#35495b" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="775" y="175" width="300" height="262" rx="14" fill="#f1f6fa" stroke="#a5b9c8" stroke-width="2"/>
+<text x="797" y="219" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" fill="#152b3b" text-anchor="start">Image outputs</text>
+<text x="797" y="265" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="normal" fill="#152b3b" text-anchor="start">MES probabilities</text>
+<text x="797" y="300" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="normal" fill="#152b3b" text-anchor="start">for each image (0–3)</text>
+<rect x="814" y="368.15" width="28" height="17.85" fill="#357ca4"/>
+<text x="828" y="416" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="normal" fill="#152b3b" text-anchor="middle">0</text>
+<rect x="874" y="317.75" width="28" height="68.25" fill="#357ca4"/>
+<text x="888" y="416" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="normal" fill="#152b3b" text-anchor="middle">1</text>
+<rect x="934" y="372.35" width="28" height="13.65" fill="#357ca4"/>
+<text x="948" y="416" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="normal" fill="#152b3b" text-anchor="middle">2</text>
+<rect x="994" y="380.75" width="28" height="5.25" fill="#357ca4"/>
+<text x="1008" y="416" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="normal" fill="#152b3b" text-anchor="middle">3</text>
+<path d="M1077,300 L1121,300" fill="none" stroke="#35495b" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="1130" y="175" width="435" height="262" rx="14" fill="#f1f6fa" stroke="#a5b9c8" stroke-width="2"/>
+<text x="1152" y="219" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" fill="#152b3b" text-anchor="start">Patient prediction</text>
+<text x="1152" y="266" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="normal" fill="#152b3b" text-anchor="start">Aggregate within each patient</text>
+<text x="1152" y="302" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="normal" fill="#152b3b" text-anchor="start">Compare six candidate rules</text>
+<text x="1152" y="362" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="bold" fill="#152b3b" text-anchor="start">Inner-selected rule:</text>
+<text x="1152" y="401" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="normal" fill="#152b3b" text-anchor="start">mean probability → argmax</text>
+<text x="35" y="493" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="bold" fill="#8b5c17" text-anchor="start">B   DERIVED REFERENCE AND EVALUATION</text>
+<rect x="35" y="517" width="1040" height="241" rx="14" fill="#fff8ed" stroke="#cbb78f" stroke-width="2"/>
+<text x="57" y="562" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="bold" fill="#152b3b" text-anchor="start">Released image labels</text>
+<text x="57" y="608" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="normal" fill="#152b3b" text-anchor="start">MES 0–3 for the same</text>
+<text x="57" y="644" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="normal" fill="#152b3b" text-anchor="start">patient-image bag</text>
+<path d="M398,631 L443,631" fill="none" stroke="#35495b" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="470" y="562" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="bold" fill="#152b3b" text-anchor="start">Derived patient reference</text>
+<text x="470" y="608" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="bold" fill="#152b3b" text-anchor="start">Primary: modal-low</text>
+<text x="470" y="653" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="normal" fill="#152b3b" text-anchor="start">Sensitivity: modal-high,</text>
+<text x="470" y="689" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="normal" fill="#152b3b" text-anchor="start">floor / ceiling of median, maximum</text>
+<path d="M178,439 L178,465 L17,465 L17,631 L32,631" fill="none" stroke="#35495b" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M1077,631 L1121,631" fill="none" stroke="#35495b" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1098" y="605" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="normal" fill="#152b3b" text-anchor="middle">vs.</text>
+<path d="M1347,439 L1347,507" fill="none" stroke="#35495b" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="1130" y="517" width="435" height="241" rx="14" fill="#eff7f4" stroke="#94b3a4" stroke-width="2"/>
+<text x="1152" y="562" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="bold" fill="#152b3b" text-anchor="start">Patient-level evaluation</text>
+<text x="1152" y="608" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="normal" fill="#152b3b" text-anchor="start">Ordinal agreement: QWK, MAE</text>
+<text x="1152" y="647" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="normal" fill="#152b3b" text-anchor="start">Classes: macro-F1, accuracy</text>
+<text x="1152" y="686" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="normal" fill="#152b3b" text-anchor="start">Probability quality: Brier, ECE</text>
+<text x="57" y="732" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="normal" fill="#76531e" text-anchor="start">Reference construction is separate from prediction aggregation.</text>
+<text x="35" y="813" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="bold" fill="#195c88" text-anchor="start">C   PATIENT-GROUPED NESTED VALIDATION</text>
+<rect x="35" y="837" width="1530" height="212" rx="14" fill="#f3f5f7" stroke="#aebbc5" stroke-width="2"/>
+<text x="57" y="881" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="bold" fill="#152b3b" text-anchor="start">5 outer folds</text>
+<text x="57" y="924" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="normal" fill="#152b3b" text-anchor="start">Keep each patient’s images</text>
+<text x="57" y="960" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="normal" fill="#152b3b" text-anchor="start">together; hold out one fold</text>
+<path d="M456,923 L507,923" fill="none" stroke="#35495b" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="530" y="881" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="bold" fill="#152b3b" text-anchor="start">4-fold inner selection</text>
+<text x="530" y="924" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="normal" fill="#152b3b" text-anchor="start">Select loss, aggregation,</text>
+<text x="530" y="960" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="normal" fill="#152b3b" text-anchor="start">and model family</text>
+<path d="M935,923 L986,923" fill="none" stroke="#35495b" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1010" y="881" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="bold" fill="#152b3b" text-anchor="start">Refit → outer evaluation</text>
+<text x="1010" y="924" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="normal" fill="#152b3b" text-anchor="start">Evaluate held-out patients;</text>
+<text x="1010" y="960" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="normal" fill="#152b3b" text-anchor="start">pool predictions across outer folds</text>
+<text x="57" y="1023" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="normal" fill="#4a5c69" text-anchor="start">Post hoc diagnostics: cross aggregation × reference choices and inspect probability quality; no reselection.</text>
+<text x="35" y="1098" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="bold" fill="#152b3b" text-anchor="start">Target: a derived patient-image-bag summary, not an independently adjudicated examination-level MES.</text>
+</svg>
