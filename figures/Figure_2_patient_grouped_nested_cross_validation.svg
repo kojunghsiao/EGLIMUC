@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="7in" height="6.3in" viewBox="0 0 1200 1080">
+<defs><marker id="navy" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#17324d"/></marker><marker id="teal" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#087f8c"/></marker><marker id="orange" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#ad5a00"/></marker></defs>
+<rect width="1200" height="1080" fill="white"/>
+<text x="600" y="31" font-family="DejaVu Sans, Arial, sans-serif" font-size="30" font-weight="bold" fill="#17324d" text-anchor="middle">Patient-grouped nested cross-validation</text>
+<rect x="230" y="51" width="740" height="51" rx="7" fill="#eef5fa" stroke="#17324d" stroke-width="1.8"/>
+<text x="600" y="84" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" fill="#17324d" text-anchor="middle">Development cohort: 478 patients / 9,590 images</text>
+<polyline points="600,103 600,120" fill="none" stroke="#17324d" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#navy)"/>
+<rect x="20" y="127" width="1160" height="198" rx="7" fill="#eef5fa" stroke="#17324d" stroke-width="1.8"/>
+<text x="43" y="153" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="bold" fill="#17324d" text-anchor="start">A</text>
+<text x="600" y="153" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="bold" fill="#17324d" text-anchor="middle">Five frozen patient folds: each fold held out once</text>
+<text x="397" y="178" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="bold" fill="#17324d" text-anchor="middle">F1</text>
+<text x="530" y="178" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="bold" fill="#17324d" text-anchor="middle">F2</text>
+<text x="663" y="178" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="bold" fill="#17324d" text-anchor="middle">F3</text>
+<text x="796" y="178" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="bold" fill="#17324d" text-anchor="middle">F4</text>
+<text x="929" y="178" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="bold" fill="#17324d" text-anchor="middle">F5</text>
+<text x="307" y="204" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="normal" fill="#17324d" text-anchor="end">Outer 1</text>
+<rect x="335" y="188" width="124" height="21" rx="2" fill="#fff0d8" stroke="#ad5a00" stroke-width="1"/>
+<text x="397" y="203" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ad5a00" text-anchor="middle">Held out</text>
+<rect x="468" y="188" width="124" height="21" rx="2" fill="#dff3f2" stroke="#087f8c" stroke-width="1"/>
+<text x="530" y="203" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="normal" fill="#087f8c" text-anchor="middle">Train</text>
+<rect x="601" y="188" width="124" height="21" rx="2" fill="#dff3f2" stroke="#087f8c" stroke-width="1"/>
+<text x="663" y="203" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="normal" fill="#087f8c" text-anchor="middle">Train</text>
+<rect x="734" y="188" width="124" height="21" rx="2" fill="#dff3f2" stroke="#087f8c" stroke-width="1"/>
+<text x="796" y="203" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="normal" fill="#087f8c" text-anchor="middle">Train</text>
+<rect x="867" y="188" width="124" height="21" rx="2" fill="#dff3f2" stroke="#087f8c" stroke-width="1"/>
+<text x="929" y="203" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="normal" fill="#087f8c" text-anchor="middle">Train</text>
+<text x="307" y="228" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="normal" fill="#17324d" text-anchor="end">Outer 2</text>
+<rect x="335" y="212" width="124" height="21" rx="2" fill="#dff3f2" stroke="#087f8c" stroke-width="1"/>
+<text x="397" y="227" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="normal" fill="#087f8c" text-anchor="middle">Train</text>
+<rect x="468" y="212" width="124" height="21" rx="2" fill="#fff0d8" stroke="#ad5a00" stroke-width="1"/>
+<text x="530" y="227" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ad5a00" text-anchor="middle">Held out</text>
+<rect x="601" y="212" width="124" height="21" rx="2" fill="#dff3f2" stroke="#087f8c" stroke-width="1"/>
+<text x="663" y="227" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="normal" fill="#087f8c" text-anchor="middle">Train</text>
+<rect x="734" y="212" width="124" height="21" rx="2" fill="#dff3f2" stroke="#087f8c" stroke-width="1"/>
+<text x="796" y="227" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="normal" fill="#087f8c" text-anchor="middle">Train</text>
+<rect x="867" y="212" width="124" height="21" rx="2" fill="#dff3f2" stroke="#087f8c" stroke-width="1"/>
+<text x="929" y="227" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="normal" fill="#087f8c" text-anchor="middle">Train</text>
+<text x="307" y="252" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="normal" fill="#17324d" text-anchor="end">Outer 3</text>
+<rect x="335" y="236" width="124" height="21" rx="2" fill="#dff3f2" stroke="#087f8c" stroke-width="1"/>
+<text x="397" y="251" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="normal" fill="#087f8c" text-anchor="middle">Train</text>
+<rect x="468" y="236" width="124" height="21" rx="2" fill="#dff3f2" stroke="#087f8c" stroke-width="1"/>
+<text x="530" y="251" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="normal" fill="#087f8c" text-anchor="middle">Train</text>
+<rect x="601" y="236" width="124" height="21" rx="2" fill="#fff0d8" stroke="#ad5a00" stroke-width="1"/>
+<text x="663" y="251" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ad5a00" text-anchor="middle">Held out</text>
+<rect x="734" y="236" width="124" height="21" rx="2" fill="#dff3f2" stroke="#087f8c" stroke-width="1"/>
+<text x="796" y="251" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="normal" fill="#087f8c" text-anchor="middle">Train</text>
+<rect x="867" y="236" width="124" height="21" rx="2" fill="#dff3f2" stroke="#087f8c" stroke-width="1"/>
+<text x="929" y="251" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="normal" fill="#087f8c" text-anchor="middle">Train</text>
+<text x="307" y="276" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="normal" fill="#17324d" text-anchor="end">Outer 4</text>
+<rect x="335" y="260" width="124" height="21" rx="2" fill="#dff3f2" stroke="#087f8c" stroke-width="1"/>
+<text x="397" y="275" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="normal" fill="#087f8c" text-anchor="middle">Train</text>
+<rect x="468" y="260" width="124" height="21" rx="2" fill="#dff3f2" stroke="#087f8c" stroke-width="1"/>
+<text x="530" y="275" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="normal" fill="#087f8c" text-anchor="middle">Train</text>
+<rect x="601" y="260" width="124" height="21" rx="2" fill="#dff3f2" stroke="#087f8c" stroke-width="1"/>
+<text x="663" y="275" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="normal" fill="#087f8c" text-anchor="middle">Train</text>
+<rect x="734" y="260" width="124" height="21" rx="2" fill="#fff0d8" stroke="#ad5a00" stroke-width="1"/>
+<text x="796" y="275" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ad5a00" text-anchor="middle">Held out</text>
+<rect x="867" y="260" width="124" height="21" rx="2" fill="#dff3f2" stroke="#087f8c" stroke-width="1"/>
+<text x="929" y="275" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="normal" fill="#087f8c" text-anchor="middle">Train</text>
+<text x="307" y="300" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="bold" fill="#17324d" text-anchor="end">Outer 5</text>
+<rect x="335" y="284" width="124" height="21" rx="2" fill="#dff3f2" stroke="#087f8c" stroke-width="1"/>
+<text x="397" y="299" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="normal" fill="#087f8c" text-anchor="middle">Train</text>
+<rect x="468" y="284" width="124" height="21" rx="2" fill="#dff3f2" stroke="#087f8c" stroke-width="1"/>
+<text x="530" y="299" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="normal" fill="#087f8c" text-anchor="middle">Train</text>
+<rect x="601" y="284" width="124" height="21" rx="2" fill="#dff3f2" stroke="#087f8c" stroke-width="1"/>
+<text x="663" y="299" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="normal" fill="#087f8c" text-anchor="middle">Train</text>
+<rect x="734" y="284" width="124" height="21" rx="2" fill="#dff3f2" stroke="#087f8c" stroke-width="1"/>
+<text x="796" y="299" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="normal" fill="#087f8c" text-anchor="middle">Train</text>
+<rect x="867" y="284" width="124" height="21" rx="2" fill="#fff0d8" stroke="#ad5a00" stroke-width="1"/>
+<text x="929" y="299" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ad5a00" text-anchor="middle">Held out</text>
+<text x="138" y="224" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="bold" fill="#087f8c" text-anchor="middle">Training folds</text>
+<text x="138" y="247" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="bold" fill="#ad5a00" text-anchor="middle">Held-out fold</text>
+<text x="138" y="281" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="bold" fill="#17324d" text-anchor="middle">Expand outer 5 ↓</text>
+<polyline points="335,312 335,317 858,317 858,312" fill="none" stroke="#087f8c" stroke-width="1.8"/>
+<polyline points="595,325 595,347 340,347 340,368" fill="none" stroke="#087f8c" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#teal)"/>
+<polyline points="930,308 930,368" fill="none" stroke="#ad5a00" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#orange)"/>
+<rect x="20" y="375" width="650" height="232" rx="7" fill="#dff3f2" stroke="#087f8c" stroke-width="1.8"/>
+<text x="42" y="401" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="bold" fill="#17324d" text-anchor="start">B</text>
+<text x="345" y="402" font-family="DejaVu Sans, Arial, sans-serif" font-size="25" font-weight="bold" fill="#17324d" text-anchor="middle">Inner four-fold cross-validation</text>
+<text x="345" y="430" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="normal" fill="#17324d" text-anchor="middle">Train on three folds; validate on one</text>
+<text x="144" y="458" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="bold" fill="#17324d" text-anchor="middle">F1</text>
+<text x="206" y="458" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="bold" fill="#17324d" text-anchor="middle">F2</text>
+<text x="268" y="458" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="bold" fill="#17324d" text-anchor="middle">F3</text>
+<text x="330" y="458" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="bold" fill="#17324d" text-anchor="middle">F4</text>
+<text x="103" y="488" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="normal" fill="#17324d" text-anchor="end">Inner 1</text>
+<rect x="115" y="470" width="58" height="25" rx="1" fill="#bce4e2" stroke="#087f8c" stroke-width="0.8"/>
+<text x="144" y="487" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="normal" fill="#17324d" text-anchor="middle">Train</text>
+<rect x="177" y="470" width="58" height="25" rx="1" fill="#bce4e2" stroke="#087f8c" stroke-width="0.8"/>
+<text x="206" y="487" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="normal" fill="#17324d" text-anchor="middle">Train</text>
+<rect x="239" y="470" width="58" height="25" rx="1" fill="#bce4e2" stroke="#087f8c" stroke-width="0.8"/>
+<text x="268" y="487" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="normal" fill="#17324d" text-anchor="middle">Train</text>
+<rect x="301" y="470" width="58" height="25" rx="1" fill="white" stroke="#087f8c" stroke-width="0.8"/>
+<text x="330" y="487" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="bold" fill="#17324d" text-anchor="middle">Val</text>
+<text x="103" y="516" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="normal" fill="#17324d" text-anchor="end">Inner 2</text>
+<rect x="115" y="498" width="58" height="25" rx="1" fill="#bce4e2" stroke="#087f8c" stroke-width="0.8"/>
+<text x="144" y="515" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="normal" fill="#17324d" text-anchor="middle">Train</text>
+<rect x="177" y="498" width="58" height="25" rx="1" fill="#bce4e2" stroke="#087f8c" stroke-width="0.8"/>
+<text x="206" y="515" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="normal" fill="#17324d" text-anchor="middle">Train</text>
+<rect x="239" y="498" width="58" height="25" rx="1" fill="white" stroke="#087f8c" stroke-width="0.8"/>
+<text x="268" y="515" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="bold" fill="#17324d" text-anchor="middle">Val</text>
+<rect x="301" y="498" width="58" height="25" rx="1" fill="#bce4e2" stroke="#087f8c" stroke-width="0.8"/>
+<text x="330" y="515" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="normal" fill="#17324d" text-anchor="middle">Train</text>
+<text x="103" y="544" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="normal" fill="#17324d" text-anchor="end">Inner 3</text>
+<rect x="115" y="526" width="58" height="25" rx="1" fill="#bce4e2" stroke="#087f8c" stroke-width="0.8"/>
+<text x="144" y="543" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="normal" fill="#17324d" text-anchor="middle">Train</text>
+<rect x="177" y="526" width="58" height="25" rx="1" fill="white" stroke="#087f8c" stroke-width="0.8"/>
+<text x="206" y="543" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="bold" fill="#17324d" text-anchor="middle">Val</text>
+<rect x="239" y="526" width="58" height="25" rx="1" fill="#bce4e2" stroke="#087f8c" stroke-width="0.8"/>
+<text x="268" y="543" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="normal" fill="#17324d" text-anchor="middle">Train</text>
+<rect x="301" y="526" width="58" height="25" rx="1" fill="#bce4e2" stroke="#087f8c" stroke-width="0.8"/>
+<text x="330" y="543" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="normal" fill="#17324d" text-anchor="middle">Train</text>
+<text x="103" y="572" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="normal" fill="#17324d" text-anchor="end">Inner 4</text>
+<rect x="115" y="554" width="58" height="25" rx="1" fill="white" stroke="#087f8c" stroke-width="0.8"/>
+<text x="144" y="571" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="bold" fill="#17324d" text-anchor="middle">Val</text>
+<rect x="177" y="554" width="58" height="25" rx="1" fill="#bce4e2" stroke="#087f8c" stroke-width="0.8"/>
+<text x="206" y="571" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="normal" fill="#17324d" text-anchor="middle">Train</text>
+<rect x="239" y="554" width="58" height="25" rx="1" fill="#bce4e2" stroke="#087f8c" stroke-width="0.8"/>
+<text x="268" y="571" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="normal" fill="#17324d" text-anchor="middle">Train</text>
+<rect x="301" y="554" width="58" height="25" rx="1" fill="#bce4e2" stroke="#087f8c" stroke-width="0.8"/>
+<text x="330" y="571" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="normal" fill="#17324d" text-anchor="middle">Train</text>
+<polyline points="365,521 390,521" fill="none" stroke="#087f8c" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#teal)"/>
+<rect x="400" y="451" width="249" height="137" rx="7" fill="white" stroke="#087f8c" stroke-width="1.8"/>
+<text x="524.5" y="478" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="bold" fill="#17324d" text-anchor="middle">Inner results only</text>
+<text x="524.5" y="506" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="normal" fill="#17324d" text-anchor="middle">Select loss, aggregation</text>
+<text x="524.5" y="531" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="normal" fill="#17324d" text-anchor="middle">and model family;</text>
+<text x="524.5" y="556" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="normal" fill="#17324d" text-anchor="middle">derive refit duration</text>
+<polyline points="345,607 345,635" fill="none" stroke="#087f8c" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#teal)"/>
+<rect x="52" y="643" width="585" height="99" rx="7" fill="#dff3f2" stroke="#087f8c" stroke-width="1.8"/>
+<text x="344.5" y="672" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="bold" fill="#17324d" text-anchor="middle">Refit selected ViT and Swin</text>
+<text x="344.5" y="699" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="bold" fill="#17324d" text-anchor="middle">on all four outer-training folds</text>
+<text x="344.5" y="727" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="normal" fill="#17324d" text-anchor="middle">Three seeds; inner-derived duration; no outer validation</text>
+<rect x="735" y="375" width="445" height="94" rx="7" fill="#fff0d8" stroke="#ad5a00" stroke-width="1.8"/>
+<text x="957.5" y="410" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="bold" fill="#17324d" text-anchor="middle">Held-out images</text>
+<text x="957.5" y="442" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17324d" text-anchor="middle">Patients in fold F5</text>
+<polyline points="1145,469 1145,635" fill="none" stroke="#ad5a00" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#orange)"/>
+<text x="930" y="516" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="bold" fill="#ad5a00" text-anchor="middle">Outer results never guide</text>
+<text x="930" y="543" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="normal" fill="#ad5a00" text-anchor="middle">selection or tuning</text>
+<polyline points="637,692 727,692" fill="none" stroke="#087f8c" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#teal)"/>
+<text x="684" y="646" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="normal" fill="#087f8c" text-anchor="middle">Fitted</text>
+<text x="684" y="666" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="normal" fill="#087f8c" text-anchor="middle">models</text>
+<rect x="735" y="643" width="445" height="99" rx="7" fill="#fff0d8" stroke="#ad5a00" stroke-width="1.8"/>
+<text x="957.5" y="676" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="bold" fill="#17324d" text-anchor="middle">Predict held-out patients</text>
+<text x="957.5" y="706" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="normal" fill="#17324d" text-anchor="middle">Save ViT and Swin predictions</text>
+<text x="957.5" y="730" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="normal" fill="#17324d" text-anchor="middle">without target-label columns</text>
+<polyline points="957,742 957,762 600,762 600,779" fill="none" stroke="#17324d" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#navy)"/>
+<rect x="166" y="787" width="868" height="49" rx="7" fill="#eef5fa" stroke="#17324d" stroke-width="1.8"/>
+<text x="600" y="819" font-family="DejaVu Sans, Arial, sans-serif" font-size="24" font-weight="bold" fill="#17324d" text-anchor="middle">Repeat for all five outer folds</text>
+<polyline points="600,836 600,854" fill="none" stroke="#17324d" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#navy)"/>
+<rect x="166" y="862" width="868" height="63" rx="7" fill="#eef5fa" stroke="#17324d" stroke-width="1.8"/>
+<text x="600" y="888" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="bold" fill="#17324d" text-anchor="middle">After all folds finish: join target labels</text>
+<text x="600" y="914" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="bold" fill="#17324d" text-anchor="middle">Pool outer OOF predictions separately for each method and seed</text>
+<polyline points="600,925 600,943" fill="none" stroke="#17324d" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#navy)"/>
+<rect x="166" y="951" width="868" height="64" rx="7" fill="#eef5fa" stroke="#17324d" stroke-width="1.8"/>
+<text x="600" y="978" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="bold" fill="#17324d" text-anchor="middle">Evaluate ViT, Swin and the inner-selected procedure</text>
+<text x="600" y="1004" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="normal" fill="#17324d" text-anchor="middle">QWK / MAE / macro-F1 / accuracy</text>
+<text x="20" y="819" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="bold" fill="#17324d" text-anchor="start">C</text>
+<text x="600" y="1040" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="normal" fill="#17324d" text-anchor="middle">All images from a patient stay together. Primary reference: fixed modal-low. Official test partition excluded.</text>
+<text x="600" y="1064" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="normal" fill="#17324d" text-anchor="middle">Metrics: mean ± sample SD across three seeds, not a prediction ensemble. OOF = out-of-fold.</text>
+</svg>
